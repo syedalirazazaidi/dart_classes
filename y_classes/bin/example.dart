@@ -1,6 +1,12 @@
 class CompanyBank {
   double _balance;
-  CompanyBank({required double balance}) : this._balance = balance;
+
+  CompanyBank({required double balance})
+      : this._balance = balance; //Defaule constructor;
+  CompanyBank.newClient() : _balance = 0; //Named constructor
+
+  CompanyBank.newVIP(double starAmount)
+      : _balance = starAmount * 1.1; //Named constructor
   double get balance => _balance;
   set balance(double amount) => _balance = amount;
   void deposit(double amount) => _balance += amount;
