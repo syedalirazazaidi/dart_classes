@@ -35,21 +35,20 @@
 //   print(companyName._empSalary);
 //   companyName.printData();
 // }
-import 'emplo.dart';
+// import 'emplo.dart';
 
-void main() {
-  Company mycompany = Company(
-    empName: 'ali',
-    empAge: 32,
-    totalEmployee: 300,
-    empSalary: 60000,
-  );
-  // mycompany.printData();
-  // print(mycompany.empFunc());
-  print(mycompany.empFunc);
-  mycompany.empFunc = 'zaidi';
-  print(mycompany.empFunc);
-  print(mycompany.ageFunc);
-  print(mycompany.totalFunc);
-  print(mycompany.salFunc);
-}
+// void main() {
+//   Company mycompany = Company(
+//     empName: 'ali',
+//     empAge: 32,
+//     totalEmployee: 300,
+//     empSalary: 60000,
+//   );
+
+//   print(mycompany.empFunc);
+//   mycompany.empFunc = 'zaidi';
+//   print(mycompany.empFunc);
+//   print(mycompany.ageFunc);
+//   print(mycompany.totalFunc);
+//   print(mycompany.salFunc);
+// }

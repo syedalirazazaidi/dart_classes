@@ -1,5 +1,6 @@
 class CompanyBank {
   double _balance;
+  static int numbofobj = 0;
 
   CompanyBank({required double balance})
       : this._balance = balance; //Defaule constructor;
@@ -22,5 +23,5 @@ class CompanyBank {
 
 // void main() {
 //   CompanyBank companybank = CompanyBank(balance: 30);
-//   print(companybank.balance);
+//   print(companybank.);
 // }
